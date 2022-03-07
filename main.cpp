@@ -7,25 +7,8 @@ public:
     double x;
     double y;
     double z;
-};
-
-int main()
-{
-    threedoubles t;
-    t.x = 1.1;
-    t.y = 2.2;
-    t.z = 3.3;
-    cout << t.x+t.y+t.z << endl;
-    threedoubles *tp = new threedoubles;
-    tp->x = 0.2;
-    tp->y = 0.3;
-    tp->z = 0.4;
-    cout << tp->x+tp->y+tp->z << endl;
-    delete tp;
-    return 0;
 }
 
-/*
 int main()
 {
     threedoubles t;
@@ -35,4 +18,4 @@ int main()
     tp->printsum();
     delete tp;
     return 0;
-}*/
+}
